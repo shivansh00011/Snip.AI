@@ -57,7 +57,7 @@ class TranscriptMetadata(BaseModel):
     transcript_id: str = Field(..., description="Unique ID for the transcript")
 
 # Fixed: Use hardcoded API key since env var approach isn't working
-GEMINI_API_KEY = "AIzaSyCKopEuTPOssofg_ruy81JVCEaNCo4GpQo"
+GEMINI_API_KEY = "Your_Gemini_API_Key"
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
 
 # Global exception handler for better error reporting
