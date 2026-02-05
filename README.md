@@ -97,6 +97,3 @@ Have suggestions or want to extend the capabilities? Contributions are welcome! 
 See `CONTRIBUTING.md` (if available) for more details.
 
 ---
-
-## License
-This project is released under the [MIT License](LICENSE).
